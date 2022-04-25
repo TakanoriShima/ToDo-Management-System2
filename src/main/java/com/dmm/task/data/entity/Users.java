@@ -10,9 +10,9 @@ import lombok.ToString;
 @Entity
 @ToString(exclude = "password")
 public class Users {
-  @Id
-  public String userName;
-  public String password;
-  public String name;
-  public String roleName;
+	@Id
+	public String userName;
+	public String password;
+	public String name;
+	public String roleName;
 }
